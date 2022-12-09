@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "f818097a-8a7e-471c-8749-afaf6cf4df84",
+		"name": "Final Assessment q48",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23256147"
+	},
+	"item": [
+		{
+			"name": "Get all Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/app/hr/resource",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"app",
+						"hr",
+						"resource"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get employee by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/app/hr/resource/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"app",
+						"hr",
+						"resource",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
